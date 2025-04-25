@@ -125,5 +125,5 @@ app.post("/loginData", async (req, res) => {
 });
 
 app.listen(process.env.port, () => {
-  console.log("connected port 4006");
+  console.log("connected port 3000");
 });
