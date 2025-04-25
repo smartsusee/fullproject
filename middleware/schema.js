@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-
+// mugima@123
 const dataSchema=mongoose.Schema({
     name:{
         type:String,
@@ -9,14 +9,7 @@ const dataSchema=mongoose.Schema({
         type:String,
         required:true,
     },
-    possword:{
-        type:String,
-        required:true,
-    },
-    mob:{
-        type:Number,
-        required:true,
-    },
+   
 });
 
 module.exports=mongoose.model("studentdb", dataSchema )

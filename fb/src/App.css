@@ -1,0 +1,16 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+ table , tr , th , td {
+
+     border: 1px solid black;
+     width: 700px;
+     height: 30px;
+     text-align: center;
+     border-collapse: collapse;
+ }
