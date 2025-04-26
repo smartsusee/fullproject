@@ -2,7 +2,7 @@ import axios from "axios";
 
 const authAxios = axios.create({
 
-      baseURL:"http://localhost:4006/"
+      baseURL:"http://51.20.252.173:3000"
 })
 
 
